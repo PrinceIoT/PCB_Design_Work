@@ -1,0 +1,12 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-F_Cu.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-B_Cu.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-F_Paste.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-B_Paste.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-F_Mask.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-B_Mask.gbr'.
+Plotted to 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\42V_INVERTER\Inverter\Inverter-job.gbrjob'.
+Info: Done.

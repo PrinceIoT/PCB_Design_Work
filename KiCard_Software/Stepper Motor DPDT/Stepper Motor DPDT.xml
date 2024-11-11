@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\Stepper Motor DPDT\Stepper Motor DPDT.kicad_sch</source>
+    <date>10/16/2023 18:44:16</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Stepper Motor DPDT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cad3fe2-0f3b-467e-9c49-f271aa1ec49b</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c16eb0f2-fb9f-47b4-a16c-9ce01bbd9c9d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a73fdb88-5cf1-4d10-95af-bbefd3332968</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Stepper_Motor_bipolar</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06304HBWC_1x04_P3.50mm_Horizontal</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1dc82c7-483b-405f-bfaa-f81bfff53176</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Stepper_Motor_bipolar</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06304HBWC_1x04_P3.50mm_Horizontal</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec0769d5-8342-4541-99ef-679eace61bff</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>MS0850502F030P1A</value>
+      <footprint>MS0850502F030P1A:SW_MS0850502F030P1A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda</field>
+        <field name="Description">
+Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A
+</field>
+        <field name="MANUFACTURER">E-SWITCH</field>
+        <field name="MF">E-Switch</field>
+        <field name="MP">MS0850502F030P1A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MS0850502F030P1A" part="MS0850502F030P1A" description=""/>
+      <property name="MF" value="E-Switch"/>
+      <property name="Description" value="&#xA;Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap"/>
+      <property name="MP" value="MS0850502F030P1A"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="E-SWITCH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88b04e6b-aca1-474f-a19e-e3188a94fb7a</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>MS0850502F030P1A</value>
+      <footprint>MS0850502F030P1A:SW_MS0850502F030P1A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda</field>
+        <field name="Description">
+Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A
+</field>
+        <field name="MANUFACTURER">E-SWITCH</field>
+        <field name="MF">E-Switch</field>
+        <field name="MP">MS0850502F030P1A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MS0850502F030P1A" part="MS0850502F030P1A" description=""/>
+      <property name="MF" value="E-Switch"/>
+      <property name="Description" value="&#xA;Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap"/>
+      <property name="MP" value="MS0850502F030P1A"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="E-SWITCH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9bf96b5-ae86-45d5-a30c-9e18c406a419</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>MS0850502F030P1A</value>
+      <footprint>MS0850502F030P1A:SW_MS0850502F030P1A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda</field>
+        <field name="Description">
+Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A
+</field>
+        <field name="MANUFACTURER">E-SWITCH</field>
+        <field name="MF">E-Switch</field>
+        <field name="MP">MS0850502F030P1A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MS0850502F030P1A" part="MS0850502F030P1A" description=""/>
+      <property name="MF" value="E-Switch"/>
+      <property name="Description" value="&#xA;Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap"/>
+      <property name="MP" value="MS0850502F030P1A"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="E-SWITCH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bb4f822-5f00-4bb7-804b-cf9e0ec9994b</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>MS0850502F030P1A</value>
+      <footprint>MS0850502F030P1A:SW_MS0850502F030P1A</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda</field>
+        <field name="Description">
+Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A
+</field>
+        <field name="MANUFACTURER">E-SWITCH</field>
+        <field name="MF">E-Switch</field>
+        <field name="MP">MS0850502F030P1A</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MS0850502F030P1A" part="MS0850502F030P1A" description=""/>
+      <property name="MF" value="E-Switch"/>
+      <property name="Description" value="&#xA;Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap"/>
+      <property name="MP" value="MS0850502F030P1A"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="E-SWITCH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ed182e8-4603-4952-b5f6-607ebf2fa494</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eedf685-0df3-4da8-aded-0e6ed1cb2507</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_DPDT</value>
+      <footprint>Button_Switch_THT:SW_E-Switch_EG2219_DPDT_Angled</footprint>
+      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Stepper Motor DPDT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8920e787-c60e-46aa-9878-2c04bfedde04</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MS0850502F030P1A" part="MS0850502F030P1A">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MS0850502F030P1A</field>
+        <field name="Footprint">MS0850502F030P1A:SW_MS0850502F030P1A</field>
+        <field name="MF">E-Switch</field>
+        <field name="Description">
+Snap Action Switch, SPDT, ON-MOM, MS Series, Straight Lever, 5A, 125VAC, PC Pin | E-Switch MS0850502F030P1A
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MS0850502F030P1A/E-Switch/view-part/?ref=snap</field>
+        <field name="MP">MS0850502F030P1A</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1129959&amp;manufacturer=E-Switch&amp;part_name=MS0850502F030P1A&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">E-SWITCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_DPDT">
+      <description>Momentary Switch, dual pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_DPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MS0850502F030P1A">
+      <uri>C:\Users\HP\OneDrive\Pictures\Documents\KiCad\6.0\symbols\MS0850502F030P1A.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M1" pin="3" pintype="passive"/>
+      <node ref="M2" pin="3" pintype="passive"/>
+      <node ref="S3" pin="1" pintype="passive"/>
+      <node ref="S4" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="S1" pin="2" pintype="passive"/>
+      <node ref="S2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(M1-Pad1)">
+      <node ref="M1" pin="1" pintype="passive"/>
+      <node ref="M2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(M1-Pad4)">
+      <node ref="M1" pin="4" pintype="passive"/>
+      <node ref="M2" pin="4" pintype="passive"/>
+      <node ref="S1" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(SW2-Pad2)">
+      <node ref="S2" pin="1" pintype="passive"/>
+      <node ref="S3" pin="2" pintype="passive"/>
+      <node ref="S4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(S1-Pad3)">
+      <node ref="S1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(S2-Pad3)">
+      <node ref="S2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(S3-Pad3)">
+      <node ref="S3" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(S4-Pad3)">
+      <node ref="S4" pin="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

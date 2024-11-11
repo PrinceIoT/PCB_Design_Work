@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\HP\OneDrive\Pictures\Documents\Kicard Work\Weight_Measure\Weight_Measure.kicad_sch</source>
+    <date>11/19/2023 13:13:55</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Weight_Measure.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_UNO_R3</value>
+      <footprint>Module:Arduino_UNO_R3_WithMountingHoles</footprint>
+      <datasheet>https://www.arduino.cc/en/Main/arduinoBoardUno</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_UNO_R3" description="Arduino UNO Microcontroller Module, release 3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>449b8f96-00bd-45df-a01d-a5adc9519e5d</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Battery:BatteryHolder_Bulgin_BX0036_1xC</footprint>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf0d27e7-7f87-4821-a31c-0124a42b651d</tstamps>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:Buzzer_D14mm_H7mm_P10mm</footprint>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae3161b-79ae-4987-8b92-2748ff12689e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00b8cbfb-fdd5-4568-b000-f0a5fab76992</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0d9ad3c-fcff-440c-ab0c-b79eb080cbf1</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>447df15c-a6fb-4df5-b5a3-d170f870b8a1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>158e3be3-cbd3-40af-bc94-31e657ad5e0f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c47ca94-880d-4ed9-b9d0-1c9e1782fa39</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>C</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>299560f5-e1d7-46f9-a601-0e8238b2b953</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe01ef8-6f5f-468c-bfc1-e904b517635f</tstamps>
+    </comp>
+    <comp ref="LCD1">
+      <value>TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_</value>
+      <footprint>TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_:LCD9-1.5-30X19.5MM</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/12%20LCD%20BREADOUT/Switch+Science/view-part/?ref=eda</field>
+        <field name="Description">
+Tiny I2C Char LCD - 5V
+</field>
+        <field name="MF">Switch Science</field>
+        <field name="MP">12 LCD BREADOUT</field>
+        <field name="MPN">12 LCD Breadout</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/12%20LCD%20BREADOUT/Switch+Science/view-part/?ref=snap</field>
+        <field name="VALUE">9P 30X19.5MM</field>
+      </fields>
+      <libsource lib="TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_" part="TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_" description=""/>
+      <property name="MF" value="Switch Science"/>
+      <property name="Description" value="&#xA;Tiny I2C Char LCD - 5V&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="MPN" value="12 LCD Breadout"/>
+      <property name="Price" value="None"/>
+      <property name="VALUE" value="9P 30X19.5MM"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/12%20LCD%20BREADOUT/Switch+Science/view-part/?ref=snap"/>
+      <property name="MP" value="12 LCD BREADOUT"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/12%20LCD%20BREADOUT/Switch+Science/view-part/?ref=eda"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77f7376c-3d44-4b7b-ab9e-efe8e4143580</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>S8550</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.unisonic.com.tw/datasheet/S8550.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0932a357-cbe0-4794-88eb-72d1d1840e75</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b5b616-79c0-4144-aee4-1169a6770283</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb35efdc-92d8-4811-ad47-8622e5aa18e9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75f6398f-f84a-4286-a211-de251bb85982</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a971275-22aa-4283-9178-6282b7aa418b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>358f302a-485b-48d7-bf00-33a5e2a2656d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0d39398-8491-40fb-970d-ae77c3eb9290</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0a850eb-6dfe-4203-aae8-6ae55901702e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FX1901-0001-0200-L</value>
+      <footprint>FX1901-0001-0200-L:SENSOR_FX1901-0001-0200-L</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FX1901-0001-0200-L/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">FX1901-0001-0200-L</field>
+        <field name="Description">
+Load Cells, Compression, 20mV, 200 lbf, Coin Cell Package, FX1901 Series | TE Connectivity FX1901-0001-0200-L
+</field>
+        <field name="MANUFACTURER">TE Connectivity</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FX1901-0001-0200-L</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2893572&amp;manufacturer=TE Connectivity&amp;part_name=FX1901-0001-0200-L&amp;search_term=load cell</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FX1901-0001-0200-L/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FX1901-0001-0200-L" part="FX1901-0001-0200-L" description=""/>
+      <property name="Comment" value="FX1901-0001-0200-L"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Load Cells, Compression, 20mV, 200 lbf, Coin Cell Package, FX1901 Series | TE Connectivity FX1901-0001-0200-L&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FX1901-0001-0200-L/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FX1901-0001-0200-L/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FX1901-0001-0200-L"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2893572&amp;manufacturer=TE Connectivity&amp;part_name=FX1901-0001-0200-L&amp;search_term=load cell"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE Connectivity"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b32676c-747c-4705-a37c-23962d1e13aa</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>HX711</value>
+      <footprint>HX711:SOP127P600X180-16N</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HX711/AVIA+SEMICONDUCTOR/view-part/?ref=eda</field>
+        <field name="Description">
+Precision 24-bit analog-to-digital converter (ADC) designed for weigh scales and industrial control applications to interface directly with a bridge sensor.
+</field>
+        <field name="MANUFACTURER">Avia Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="MF">AVIA SEMICONDUCTOR</field>
+        <field name="MP">HX711</field>
+        <field name="PARTREV">V2.0</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">HX711</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HX711/AVIA+SEMICONDUCTOR/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="HX711" part="HX711" description=""/>
+      <property name="MF" value="AVIA SEMICONDUCTOR"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/HX711/AVIA+SEMICONDUCTOR/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="V2.0"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/HX711/AVIA+SEMICONDUCTOR/view-part/?ref=snap"/>
+      <property name="MP" value="HX711"/>
+      <property name="Description" value="&#xA;Precision 24-bit analog-to-digital converter (ADC) designed for weigh scales and industrial control applications to interface directly with a bridge sensor.&#xA;"/>
+      <property name="SNAPEDA_PN" value="HX711"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="Avia Semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Weight_Measure.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a71ed24-a33a-4e84-aec8-4429b7908824</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FX1901-0001-0200-L" part="FX1901-0001-0200-L">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FX1901-0001-0200-L</field>
+        <field name="Footprint">FX1901-0001-0200-L:SENSOR_FX1901-0001-0200-L</field>
+        <field name="Comment">FX1901-0001-0200-L</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="Description">
+Load Cells, Compression, 20mV, 200 lbf, Coin Cell Package, FX1901 Series | TE Connectivity FX1901-0001-0200-L
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FX1901-0001-0200-L/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FX1901-0001-0200-L/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+        <field name="MP">FX1901-0001-0200-L</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2893572&amp;manufacturer=TE Connectivity&amp;part_name=FX1901-0001-0200-L&amp;search_term=load cell</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">TE Connectivity</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+SUPPLY" type="power_in"/>
+        <pin num="2" name="+OUTPUT" type="output"/>
+        <pin num="3" name="-OUTPUT" type="output"/>
+        <pin num="4" name="-SUPPLY" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HX711" part="HX711">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX711</field>
+        <field name="Footprint">HX711:SOP127P600X180-16N</field>
+        <field name="MF">AVIA SEMICONDUCTOR</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/HX711/AVIA+SEMICONDUCTOR/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">V2.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/HX711/AVIA+SEMICONDUCTOR/view-part/?ref=snap</field>
+        <field name="MP">HX711</field>
+        <field name="Description">
+Precision 24-bit analog-to-digital converter (ADC) designed for weigh scales and industrial control applications to interface directly with a bridge sensor.
+</field>
+        <field name="SNAPEDA_PN">HX711</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">Avia Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSUP" type="power_in"/>
+        <pin num="2" name="BASE" type="output"/>
+        <pin num="3" name="AVDD" type="power_in"/>
+        <pin num="4" name="VFB" type="input"/>
+        <pin num="5" name="AGND" type="power_in"/>
+        <pin num="6" name="VBG" type="output"/>
+        <pin num="7" name="INA-" type="input"/>
+        <pin num="8" name="INA+" type="input"/>
+        <pin num="9" name="INB-" type="input"/>
+        <pin num="10" name="INB+" type="input"/>
+        <pin num="11" name="PD_SCK" type="input"/>
+        <pin num="12" name="DOUT" type="output"/>
+        <pin num="13" name="XO" type="output"/>
+        <pin num="14" name="XI" type="input"/>
+        <pin num="15" name="RATE" type="input"/>
+        <pin num="16" name="DVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_UNO_R3">
+      <description>Arduino UNO Microcontroller Module, release 3</description>
+      <docs>https://www.arduino.cc/en/Main/arduinoBoardUno</docs>
+      <footprints>
+        <fp>Arduino*UNO*R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_UNO_R3</field>
+        <field name="Footprint">Module:Arduino_UNO_R3</field>
+        <field name="Datasheet">https://www.arduino.cc/en/Main/arduinoBoardUno</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="3V3" type="power_out"/>
+        <pin num="5" name="+5V" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="A0" type="bidirectional"/>
+        <pin num="10" name="A1" type="bidirectional"/>
+        <pin num="11" name="A2" type="bidirectional"/>
+        <pin num="12" name="A3" type="bidirectional"/>
+        <pin num="13" name="SDA/A4" type="bidirectional"/>
+        <pin num="14" name="SCL/A5" type="bidirectional"/>
+        <pin num="15" name="D0/RX" type="bidirectional"/>
+        <pin num="16" name="D1/TX" type="bidirectional"/>
+        <pin num="17" name="D2" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D4" type="bidirectional"/>
+        <pin num="20" name="D5" type="bidirectional"/>
+        <pin num="21" name="D6" type="bidirectional"/>
+        <pin num="22" name="D7" type="bidirectional"/>
+        <pin num="23" name="D8" type="bidirectional"/>
+        <pin num="24" name="D9" type="bidirectional"/>
+        <pin num="25" name="D10" type="bidirectional"/>
+        <pin num="26" name="D11" type="bidirectional"/>
+        <pin num="27" name="D12" type="bidirectional"/>
+        <pin num="28" name="D13" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="AREF" type="input"/>
+        <pin num="31" name="SDA/A4" type="bidirectional"/>
+        <pin num="32" name="SCL/A5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_" part="TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_">
+      <fields>
+        <field name="Reference">LCD</field>
+        <field name="Value">TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_</field>
+        <field name="Footprint">TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_:LCD9-1.5-30X19.5MM</field>
+        <field name="MF">Switch Science</field>
+        <field name="Description">
+Tiny I2C Char LCD - 5V
+</field>
+        <field name="Package">None</field>
+        <field name="MPN">12 LCD Breadout</field>
+        <field name="Price">None</field>
+        <field name="VALUE">9P 30X19.5MM</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/12%20LCD%20BREADOUT/Switch+Science/view-part/?ref=snap</field>
+        <field name="MP">12 LCD BREADOUT</field>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/12%20LCD%20BREADOUT/Switch+Science/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V0" type="no_connect"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="CAPIN" type="power_in"/>
+        <pin num="4" name="CAPIP" type="power_in"/>
+        <pin num="5" name="VDD(3.3V)" type="input"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="SDA" type="input"/>
+        <pin num="8" name="SCL" type="input"/>
+        <pin num="9" name="SRSETB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="S8550">
+      <description>0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92</description>
+      <docs>http://www.unisonic.com.tw/datasheet/S8550.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">S8550</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.unisonic.com.tw/datasheet/S8550.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="FX1901-0001-0200-L">
+      <uri>C:/Users/HP/OneDrive/Pictures/Documents/KiCad/6.0/footprints/Loadcell/FX1901-0001-0200-L.kicad_sym</uri>
+    </library>
+    <library logical="HX711">
+      <uri>C:/Users/HP/OneDrive/Pictures/Documents/Kicard Work/Weight_Measure/HX711.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_">
+      <uri>C:/Users/HP/OneDrive/Pictures/Documents/8086 Work/I2C LCD DISPLAY/TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LCD1" pin="6" pinfunction="VSS" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="-OUTPUT" pintype="output"/>
+      <node ref="U2" pin="14" pinfunction="XI" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="RATE" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4" pinfunction="3V3" pintype="power_out"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="LCD1" pin="5" pinfunction="VDD(3.3V)" pintype="input"/>
+      <node ref="LCD1" pin="9" pinfunction="SRSETB" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="SDA/A4" pintype="bidirectional"/>
+      <node ref="LCD1" pin="7" pinfunction="SDA" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(A1-Pad14)">
+      <node ref="A1" pin="14" pinfunction="SCL/A5" pintype="bidirectional"/>
+      <node ref="LCD1" pin="8" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(A1-Pad19)">
+      <node ref="A1" pin="19" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(A1-Pad32)">
+      <node ref="A1" pin="32" pinfunction="SCL/A5" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="PD_SCK" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="INA-" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="INA+" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VBG" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="+OUTPUT" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="LCD1" pin="3" pinfunction="CAPIN" pintype="power_in"/>
+      <node ref="LCD1" pin="4" pinfunction="CAPIP" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="LCD1" pin="2" pinfunction="VOUT" pintype="power_in"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="BASE" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="18" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="+SUPPLY" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="-SUPPLY" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VFB" pintype="input"/>
+    </net>
+    <net code="21" name="VCC">
+      <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out"/>
+      <node ref="A1" pin="8" pinfunction="VIN" pintype="power_in"/>
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VSUP" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="22" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(A1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(A1-Pad9)">
+      <node ref="A1" pin="9" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(A1-Pad11)">
+      <node ref="A1" pin="11" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(A1-Pad12)">
+      <node ref="A1" pin="12" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D0/RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(A1-Pad16)">
+      <node ref="A1" pin="16" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(A1-Pad23)">
+      <node ref="A1" pin="23" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad24)">
+      <node ref="A1" pin="24" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="D11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(A1-Pad27)">
+      <node ref="A1" pin="27" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(A1-Pad31)">
+      <node ref="A1" pin="31" pinfunction="SDA/A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(LCD1-Pad1)">
+      <node ref="LCD1" pin="1" pinfunction="V0" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="AGND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="INB-" pintype="input+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="INB+" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="XO" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

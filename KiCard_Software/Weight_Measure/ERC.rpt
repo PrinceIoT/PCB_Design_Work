@@ -1,0 +1,23 @@
+ERC report (11/18/2023 23:14:50, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(255.52 mm, 79.63 mm): Symbol LCD1 [TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_] Pin 3 [CAPIN, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(255.52 mm, 82.17 mm): Symbol LCD1 [TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_] Pin 4 [CAPIP, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(255.52 mm, 77.09 mm): Symbol LCD1 [TINY-I2C-CHAR-LCD-5V_9P-30X19.5MM_] Pin 2 [VOUT, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(148.08 mm, 112.39 mm): Symbol U2 [HX711] Pin 5 [AGND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(64.01 mm, 68.71 mm): Symbol U1 [FX1901-0001-0200-L] Pin 1 [+SUPPLY, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error
+    @(64.01 mm, 83.95 mm): Symbol U1 [FX1901-0001-0200-L] Pin 4 [-SUPPLY, Power input, Line]
+
+ ** ERC messages: 6  Errors 6  Warnings 0

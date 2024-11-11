@@ -1,0 +1,30 @@
+Drill report for Inverter.kicad_pcb
+Created on 5/18/2024 17:59:26
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Inverter-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (37 holes)
+    T2  0.400mm  0.0157"  (7 holes)
+    T3  0.800mm  0.0315"  (212 holes)
+    T4  0.900mm  0.0354"  (2 holes)  (with 2 slots)
+    T5  1.100mm  0.0433"  (80 holes)
+    T6  1.200mm  0.0472"  (2 holes)
+    T7  1.300mm  0.0512"  (4 holes)
+
+    Total plated holes count 344
+
+
+Drill file 'Inverter-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.100mm  0.0433"  (2 holes)
+    T2  2.200mm  0.0866"  (4 holes)
+
+    Total unplated holes count 6
